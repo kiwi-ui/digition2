@@ -1,0 +1,7 @@
+.pageFlipEnter {
+    transform: perspective(800px) rotateY(-180deg);
+}
+.pageFlipEnterActive {
+    transform: perspective(800px) rotateY(0);
+    transition: transform 1s;
+}

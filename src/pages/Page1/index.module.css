@@ -1,0 +1,23 @@
+.pageFlipEnter{
+    transform: perspective(800px) rotateY(-180deg);
+}
+.pageFlipEnterActive {
+    transform: perspective(800px) rotateY(0);
+    transition: transform 1s;
+}
+.w-85 { width: 85%; }
+.card-details {
+    background: rgb(216, 201, 188, 0.9);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+.sosmed {
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid #747e88;
+    color: #747e88;
+    font-size: 16px;
+}

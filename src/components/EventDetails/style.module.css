@@ -1,0 +1,8 @@
+.card-details {
+    background: rgb(216, 201, 188, 0.9);
+    backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 3.0px 5.9px 5.9px hsl(0deg 0% 0% / 0.41);
+}
