@@ -62,10 +62,12 @@ const App = () => {
             <ModalContentContext.Provider value={modalContentContextValue}>
 
             { !hideCover ? <Cover hide= { hideCover } setHide= { setHideCover }/> : 
+            <>
+
                 <article className={`$ d-flex ${style['bg-img']} justify-content-center align-items-center vh-100 vw-100`}>
-                    <div className={` ${style['bg-white-05']} ${style['w-90']} ${style['h-90']} position-relative rounded-4 shadow-lg py-2`}>
-                        <button className={`${ selected === 0 ? 'disabled opacity-20' : ''} z10 position-absolute bg-transparent start-0 top-50 translate-middle-y z10`} onClick={back}><MdOutlineArrowBackIosNew /></button>
-                        <button className={` ${ selected === 4 ? 'disabled opacity-20' : ''} position-absolute bg-transparent end-0 top-50 translate-middle-y z10` } onClick={next}><MdOutlineArrowForwardIos /></button>
+                    <div className={` ${style['bg-white-05']} ${style['w-90']} ${style['h-90']} position-relative rounded-4 shadow-lg py-4`}>
+                        <button className={`${ selected === 0 ? 'disabled opacity-20' : ''} position-absolute bg-transparent start-0 top-50 translate-middle-y z10 fw-bold`} onClick={back}><MdOutlineArrowBackIosNew className="fw-bold fs-1"/></button>
+                        <button className={` ${ selected === 4 ? 'disabled opacity-20' : ''} position-absolute bg-transparent end-0 top-50 translate-middle-y z10 fw-bold` } onClick={next}><MdOutlineArrowForwardIos className="fw-bold fs-1"/></button>
                         <FlippingPages direction="right-to-left" onSwipeEnd={ setSelected } selected={ selected }>
                         { pages.map((page) => {
                             return (
@@ -83,9 +85,9 @@ const App = () => {
                             <BsFillGiftFill className="text-color-primary fs-1"/>
                         </button>
                     </div>
-                    
-                    <ModalImage />
                 </article>
+                    <ModalImage />
+            </>
             }
             </ModalContentContext.Provider>
         </ModalToggleContext.Provider>

@@ -49,7 +49,7 @@ const Wish = () => {
     }
 
     return (
-        <section id="wish" className="container py-4 h-100">
+        <section id="wish" className="container h-100">
             <p className="fw-bold text-black m-0 text-center fs-1">Harapan</p>
             <p className="text-center fs-5">Kirim harapan dan doa untuk kedua mempelai</p>
         

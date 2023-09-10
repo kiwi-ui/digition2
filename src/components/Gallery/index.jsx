@@ -23,11 +23,11 @@ const Gallery = () => {
     }
     return (
         <>
-            <section id="gallery" className="h-100 pt-4 position-relative">
+            <section id="gallery" className="h-100 position-relative">
                 <div className="container py-2 h-100 text-black">
                     <div className="text-center w-75 position-relative" style={{transform: "translateX(-50%)", right: "-50%"}}>
                         <p className="fw-bold fs-1 m-0">Gallery</p>
-                        <p className="fs-5 pb-3">Momen terbaik terekam abadi</p>
+                        <p className="fs-5">Momen terbaik terekam abadi</p>
                     </div>
 
                     <div className="row justify-content-center">

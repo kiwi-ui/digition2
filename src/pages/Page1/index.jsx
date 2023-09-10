@@ -6,7 +6,7 @@ import style from './index.module.css';
 const Page1 = () => {
 
   return (
-		<section className="text-center container py-4">
+		<section className="text-center container">
 			<p className="fw-semibold fs-1 dancing-font">Assalamualaikum Wr Wb</p>
 			<p className="mb-0">Dengan rahmat ridho Allah <i>Subhanahu Wa Ta'ala,</i> kami menyelenggarakan acara resepsi pernikahan putra-putri kami:</p>
 
@@ -18,7 +18,8 @@ const Page1 = () => {
 						<p className="fs-3 fw-semibold dancing-font">Putri Ayuningtyas</p>
 						<p className="m-0">Putri dari Bapak Ahmad Hidayat &amp; Ibu Nurul Rahayu</p>
 						<button className={`text-white btn  mt-2`} href="https://www.instagram.com">
-							<BsInstagram  className="fs-4 text-black position-relative "/>
+							<a href="https://www.instagram.com/yusnianggara"><BsInstagram  className="fs-4 text-black position-relative "/></a>
+								
 						</button>
 					</div>
 				</div>
@@ -30,7 +31,7 @@ const Page1 = () => {
 						<p className="fs-3 fw-semibold dancing-font">Baim Ramadhan</p>
 						<p className="m-0">Putra dari Bapak Hadi Kusuma &amp; Ibu Anita Rahmawati</p>
 						<button className={`text-white btn  mt-2`} href="https://www.instagram.com">
-							<BsInstagram  className="fs-4 text-black position-relative "/>
+							<a href="https://www.instagram.com/divit.ion/"><BsInstagram  className="fs-4 text-black position-relative "/></a>
 						</button>
 					</div>
 				</div>
