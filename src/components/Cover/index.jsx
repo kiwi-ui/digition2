@@ -21,7 +21,7 @@ const Cover = ({hide, setHide}) => {
                     <p className="fw-bold mb-3 text-color-secondary dancing-font" style={{fontSize: '2rem'}}>{ name }</p>
                 </div>
 
-                <button onClick={ hideCover } type="button" className={ `btn bg-button rounded-4 position-relative position-relative d-flex g-3 flex-row align-items-center justify-content-center text-white border-0 gap-1 shadow`}>
+                <button onClick={ hideCover } type="button" className={ `btn py-2 px-3 bg-button rounded-4 position-relative position-relative d-flex g-3 flex-row align-items-center justify-content-center text-white border-0 gap-1 shadow`}>
                     <BsEnvelopeHeart/>
                     <p className="m-0">Buka Undangan</p>
                 </button>
