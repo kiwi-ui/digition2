@@ -11,7 +11,7 @@ const Footer = () => {
                 
                 <div className="text-center">
                     <p className="fw-bold m-0">Made with Love</p>
-                    <p className="fw-bold">Digition</p>
+                    <p className="fw-bold">Divition</p>
                 </div>
                 
                 <div className="row">
