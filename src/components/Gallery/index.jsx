@@ -27,7 +27,7 @@ const Gallery = () => {
                 <div className="container py-2 h-100 text-black">
                     <div className="text-center w-75 position-relative" style={{transform: "translateX(-50%)", right: "-50%"}}>
                         <p className="fw-bold fs-1 m-0">Gallery</p>
-                        <p className="fs-5">Momen terbaik terekam abadi</p>
+                        <p className="fs-5 border-bottom border-3 border-black pb-2">Momen terbaik terekam abadi</p>
                     </div>
 
                     <div className="row justify-content-center">

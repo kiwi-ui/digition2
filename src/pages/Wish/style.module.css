@@ -1,1 +1,9 @@
 .bgColorPrimary { background-color: #F1D6AB}
+.btn-details {
+    background: rgb(216, 201, 188, 0.9);
+    backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 10px !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.125) !important;
+    box-shadow: 3.0px 5.9px 5.9px hsl(0deg 0% 0% / 0.41);
+}
