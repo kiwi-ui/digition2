@@ -31,28 +31,28 @@ const EventDetails = () => {
     return (
         <>
             { !isEventOver ? 
-                <div className="row text-black g-3 text-center  justify-content-center">
-                    <div className="col-4 col-lg-3 rounded-2">
-                        <div className={`${style['card-details']}`}>
-                            <p className={`fs-5 mb-0 fw-semibold`}>{ event.days }</p>
+                <div className={ `row ${ style.textPrimary } text-center g-2` }>
+                    <div className="col-3">
+                        <div className={ `${style['card-details']}  rounded-2 p-1` }>
+                            <p className={` mb-0 fw-semibold`}>{ event.days }</p>
                             <p className="m-0">Hari</p>
                         </div>
                     </div>
-                    <div className="col-4 col-lg-3 rounded-2">
-                        <div className={`${style['card-details']}`}>
-                            <p className={`fs-5 mb-0 fw-semibold`}>{ event.hours }</p>
+                    <div className={ `col-3` }>
+                        <div className={ `${style['card-details']}  rounded-2 p-1` }>
+                            <p className={` mb-0 fw-semibold`}>{ event.hours }</p>
                             <p className="m-0">Jam</p>
                         </div>
                     </div>
-                    <div className="col-4 col-lg-3 rounded-2">
-                        <div className={`${style['card-details']}`}>
-                            <p className={`fs-5 mb-0 fw-semibold`}>{ event.minutes }</p>
+                    <div className={ `col-3` }>
+                        <div className={ `${style['card-details']}  rounded-2 p-1` }>
+                            <p className={` mb-0 fw-semibold`}>{ event.minutes }</p>
                             <p className="m-0">Menit</p>
                         </div>
                     </div>
-                    <div className="col-4 col-lg-3 rounded-2">
-                        <div className={`${style['card-details']} px-4`}>
-                            <p className={`fs-5 mb-0 fw-semibold`}>{ event.seconds }</p>
+                    <div className={ `col-3` }>
+                        <div className={ `${style['card-details']}  rounded-2 p-1` }>
+                            <p className={` mb-0 fw-semibold`}>{ event.seconds }</p>
                             <p className="m-0">Detik</p>
                         </div>
                     </div>

@@ -13,3 +13,12 @@
     border: 1px solid rgba(255, 255, 255, 0.125) !important;
     box-shadow: 3.0px 5.9px 5.9px hsl(0deg 0% 0% / 0.41);
 }
+.borderColorPrimary{
+    border-color:#72665C !important;
+}
+.string{
+    border-right: 0.1rem solid #72665C;
+}
+.textPrimary{
+    color: #72665C;
+}

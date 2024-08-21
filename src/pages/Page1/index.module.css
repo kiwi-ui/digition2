@@ -1,13 +1,7 @@
-.pageFlipEnter{
-    transform: perspective(800px) rotateY(-180deg);
-}
-.pageFlipEnterActive {
-    transform: perspective(800px) rotateY(0);
-    transition: transform 1s;
-}
+
 .w-85 { width: 85%; }
 .card-details {
-    background: rgb(216, 201, 188, 0.9);
+    background: rgba(164, 158, 153, 0.5);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
