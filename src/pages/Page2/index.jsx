@@ -10,7 +10,7 @@ const Page2 = () => {
             <section className={`${ style.textPrimary } position-relative pb-3 pt-5 border border-0 `}>
                 <div className="text-center container px-3 pt-4 pb-5 mb-5" style={{borderRadius:'11rem 11rem 0 0', boxShadow:'-2px -1px 9px 4px rgba(0, 0, 0, 0.5)', backgroundColor: 'rgba(255, 255, 255, 0.7)', width:'85%'}}>
                     {/* <img height={ '60px' } src={ ring } alt="ring"/> */}
-                    <p className={`${fonts.nanum} fw-thin m-0 fw-bold fs-1  border-3 border-black pb-2 pt-5`} style={{letterSpacing: '0.1rem'}}>Save The Date</p>
+                    <p className={`${ fonts.nanum } fw-thin m-0 fw-bold fs-3  border-3 border-black pb-2 pt-5`} style={{letterSpacing: '0.1rem'}}>Save The Date</p>
                     <div className="row my-2" style={{height: '8vh'}}>
                         <div className={`${ style.string } col-6 `}></div>
                         <div className="col-6"></div>

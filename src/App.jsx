@@ -64,8 +64,8 @@ const App = () => {
             { !hideCover ? <Cover hide= { hideCover } setHide= { setHideCover }/> : 
                 <article className={`$ d-flex ${style['bg-img']} justify-content-center align-items-center vh-100 vw-100`}>
                     <div className={` ${style['bg-white-05']} ${style['w-90']} ${style['h-90']} position-relative rounded-4 shadow-lg`}>
-                        <button className={`${ selected === 0 ? 'disabled opacity-20' : ''} position-absolute bg-transparent start-0 top-50 translate-middle-y z10 fw-bold`} onClick={back}><MdOutlineArrowBackIosNew className="fw-bold fs-1"/></button>
-                        <button className={` ${ selected === 4 ? 'disabled opacity-20' : ''} position-absolute bg-transparent end-0 top-50 translate-middle-y z10 fw-bold` } onClick={next}><MdOutlineArrowForwardIos className="fw-bold fs-1"/></button>
+                        <button className={`${ selected === 0 ? 'disabled opacity-20' : ''} position-absolute bg-transparent top-50 translate-middle-y z10`} onClick={ back } style={{right:'97%'}}><MdOutlineArrowBackIosNew className="fs-4"/></button>
+                        <button className={` ${ selected === 4 ? 'disabled opacity-20' : ''} position-absolute bg-transparent top-50 translate-middle-y z10` } onClick={ next } style={{left:'97%'}}><MdOutlineArrowForwardIos className="fs-4"/></button>
 
                         <FlippingPages direction="right-to-left" disableSwipe onSwipeEnd={ setSelected } selected={ selected }>
                         { pages.map((page) => {

@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import style from './style.module.css'
+import style from './style.module.css';
+import fonts from '../../App.module.css';
 
 const Wish = () => {
     const [formData, setFormData] = useState({
@@ -51,7 +52,7 @@ const Wish = () => {
 
     return (
         <section id="wish" className="container h-100 pt-5">
-            <p className="fw-bold text-black m-0 text-center fs-1">Harapan</p>
+            <p className={`fw-bolder text-black m-0 text-center fs-3 ${ fonts.nanum }`}>Harapan</p>
             <p className="text-center border-bottom border-3 border-black pb-2">Kirim harapan dan doa untuk kedua mempelai</p>
         
             <div className="d-flex flex-column justify-content-center h-75">

@@ -7,6 +7,7 @@ import g7 from '../../assets/img/g-7.webp';
 import g8 from '../../assets/img/bride.jpg';
 import g9 from '../../assets/img/bg-1.png';
 import g10 from '../../assets/img/profile.jpg';
+import fonts from '../../App.module.css';
 import { useContext } from 'react';
 import { ModalContentContext, ModalToggleContext } from '../../contexts/ZoomModal';
 
@@ -36,8 +37,8 @@ const Gallery = () => {
             <section id="gallery" className="position-relative my-5 pb-5">
                 <div className="container py-2 h-100 text-black">
                     <div className="text-center w-75 position-relative" style={{transform: "translateX(-50%)", right: "-50%"}}>
-                        <p className="fw-bold fs-1 m-0">Gallery</p>
-                        <p className="border-bottom border-3 border-black pb-2">Momen terbaik terekam abadi</p>
+                        <p className={`${fonts.nanum} fs-3 m-0`} style={{fontWeight:'900'}}>Gallery</p>
+                        <p className="border-bottom border-3 border-black pb-2 fw-lighter">Momen terbaik terekam abadi</p>
                     </div>
 
                     <div className="row justify-content-center">
