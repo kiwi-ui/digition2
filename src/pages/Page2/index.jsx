@@ -37,7 +37,7 @@ const Page2 = () => {
                             <p className="mb-0" style={{fontSize:'0.8rem'}}>Rumah Mempelai Wanita</p>
                             <p className="mb-0" style={{fontSize:'0.8rem'}}>Jl. Hindia 3 No.34 RT. 05 RW. 43 Ds. Melati Kec. Gendang Kab. Sidoarjo</p>
                         </div>
-                        <button type="button" className= {`${style.textPrimary} py-1 border border-3 mt-2 fw-medium rounded-3 bg-transparent border border-1 border-white`} style={{ width:'30vw', fontSize:'0.9rem' }}>
+                        <button type="button" className= {`${style.textPrimary} py-1 border border-1 border-dark mt-2 fw-medium rounded-3 bg-transparent border`} style={{ width:'30vw', fontSize:'0.9rem' }}>
                             Buka Maps
                         </button>
                     </div>
